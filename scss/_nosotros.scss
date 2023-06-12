@@ -1,0 +1,94 @@
+/* ----- PAGINA DE NOSOTROS ---- */
+.imagenDeNosotros {
+    height: 485px;
+
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.BloqueDeFondo {
+    width: 294px;
+    height: 484px;
+    background-color: #006C79;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.nosotrosContenedor {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 25px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-around;
+}
+.sectionInfoNosotros {
+    width: 500px;
+    height: 100px;
+    margin-right: 100px;
+}
+.sectionInfoNosotros p {
+    width: 400px;
+}
+.infoNosotros {
+    height: 100px;
+    width: 500px;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+
+@media (max-width: 570px) { 
+
+    .imagenDeNosotros {
+        height: 240px;
+        width: 95%;
+        border-radius: 10px;
+        margin: 2px 4px;
+    }
+    .BloqueDeFondo {
+        width: 100%;
+        height: 245px;
+        background-color: #006C79;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .nosotrosContenedor {
+        width: 100%;
+        height: 245px;
+        margin-bottom: 5px;
+        background-color: #efefef;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sectionInfoNosotros {
+        width: 500px;
+        height: 100px;
+        margin-right: 0px;
+    }
+    .sectionInfoNosotros p {
+        width: 100%;
+    }
+    .sectionInfoNosotros {
+        .infoNosotros {
+            height: 50px;
+            width: 80%;
+            margin: 20px;
+            margin-bottom: 0px;
+            h4{
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+            p{
+                font-size: 8px;
+                color: #676666;
+            }
+        }
+    }
+
+
+
+
+}
+

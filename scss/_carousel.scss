@@ -1,0 +1,39 @@
+
+/* CARROUSEL */
+.carousel {
+    background-color: #EFEFEF;
+}
+.bi-chevron-left {
+    color: #3150a6;
+}
+.bi-chevron-right {
+    color: #3150a6;
+}
+.carruselInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.carruselImg {
+    width: 100%;
+}
+@media (max-width: 570px) { 
+    .carruselInfo {
+        text-align: 8px;
+    }
+    .carrusel-contenido {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carruselInfo {
+        width: 300px;
+        text-align: center;
+    }
+    .carruselInfo button {
+        display: none;
+    }
+    .carruselImg {
+        width: 100px;
+    }
+}

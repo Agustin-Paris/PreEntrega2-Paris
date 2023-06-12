@@ -1,0 +1,21 @@
+/* INFORMACION DE PAGOS, ENVIOS Y COTIZACIONES */
+.seccionDos-contenedor {
+    margin-top: 25px;   
+    margin-bottom: 25px;
+}
+.contenedora {
+    width: 80%;
+    font-weight: 10px;
+    font-size: 13px;
+}
+.custom-height {
+    height: 80px;
+}
+@media (max-width: 570px) { 
+    .seccionDos-contenedor {
+        margin: 10px;
+    }
+    .contenedora {
+        display: none;
+    }
+}
