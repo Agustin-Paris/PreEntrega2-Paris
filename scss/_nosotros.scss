@@ -26,10 +26,11 @@
     width: 500px;
     height: 100px;
     margin-right: 100px;
+    p {
+        width: 400px;
+    }
 }
-.sectionInfoNosotros p {
-    width: 400px;
-}
+
 .infoNosotros {
     height: 100px;
     width: 500px;
@@ -66,9 +67,9 @@
         width: 500px;
         height: 100px;
         margin-right: 0px;
-    }
-    .sectionInfoNosotros p {
-        width: 100%;
+        p {
+            width: 100%;
+        }
     }
     .sectionInfoNosotros {
         .infoNosotros {

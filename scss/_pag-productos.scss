@@ -11,6 +11,16 @@
     width: 80%;
    border-radius: 5px;
 }
+
+.accordion-body {
+    ul {
+        
+        li {
+            
+            border-bottom: 1px solid rgb(207, 207, 207);
+        }
+    }
+}
 @media (max-width: 570px) {
     .flyer {
         width: 100%;
