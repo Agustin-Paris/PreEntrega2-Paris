@@ -364,7 +364,7 @@ main {
 }
 
 .equipo {
-  background-image: url(/img/Frame\ 1.jpeg);
+  background-image: url(../img/Frame\ 1.jpeg);
   width: 100%;
   height: 220px;
 }
@@ -389,11 +389,6 @@ main {
 }
 
 @media (max-width: 570px) {
-  .equipo {
-    background-image: url(/img/Frame\ 1.jpeg);
-    width: 100%;
-    height: 220px;
-  }
   .imagen-equipo {
     width: 150px;
     height: 220px;
