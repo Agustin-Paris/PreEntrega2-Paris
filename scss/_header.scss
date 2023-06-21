@@ -51,6 +51,41 @@ section {
     justify-content: center;
     margin-top: 5px;
 }
+
+.effectHover{
+      li { 
+
+        padding: 15px 0;
+      }
+      a {
+        color: #fff;       
+        display: inline-block;
+        padding: 10px 20px;
+        position: relative;
+      }
+      a:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #324e9f;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      a:hover:after { 
+        width: 90%; 
+        left: 0; 
+      }
+      @media screen and (max-height: 300px) {
+          ul {
+              margin-top: 40px;
+          }
+      }
+}
+
 @media (max-width: 570px) {
         .logo {
             width: 80px;
@@ -71,5 +106,13 @@ section {
             justify-content: center;
             margin-bottom: 5px;
         }
-        
+        .effectHover {
+            a {
+            padding: 0px 8px;       
+            }
+            li { 
+            padding: 0px 0;
+            }
+        }
 }
+        
